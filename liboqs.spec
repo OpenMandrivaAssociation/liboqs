@@ -84,7 +84,7 @@ This package contains development files for %{name}
 %autosetup -p1
 
 # fix strict-prototypes werror
-find . -name \*.c -type f -exec sed -i -e 's|()|(void)|g' '{}' \;
+find . -name \*.c -type f -exec sed -i -e 's|() {|(void) {|g' '{}' \;
 
 %build
 %cmake \
