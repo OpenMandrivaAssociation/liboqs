@@ -6,7 +6,7 @@
 Summary:	A C library for prototyping and experimenting with quantum-resistant cryptography 
 Name:		liboqs
 Version:	0.7.2
-Release:	1
+Release:	2
 License:	MIT
 Group:		System/Libraries
 URL:		https://github.com/open-quantum-safe
