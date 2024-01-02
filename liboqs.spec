@@ -5,7 +5,7 @@
 
 Summary:	A C library for prototyping and experimenting with quantum-resistant cryptography 
 Name:		liboqs
-Version:	0.9.0
+Version:	0.9.1
 Release:	1
 License:	MIT
 Group:		System/Libraries
