@@ -5,11 +5,11 @@
 
 Summary:	A C library for prototyping and experimenting with quantum-resistant cryptography 
 Name:		liboqs
-Version:	0.12.0
+Version:	0.15.0
 Release:	1
 License:	MIT
 Group:		System/Libraries
-URL:		https://github.com/open-quantum-safe
+URL:		https://github.com/open-quantum-safe/liboqs
 Source0:	https://github.com/open-quantum-safe/liboqs/archive/%{version}/%{name}-%{version}.tar.gz
 BuildRequires:	cmake
 BuildRequires:	ninja
@@ -17,8 +17,8 @@ BuildRequires:	astyle
 BuildRequires:	doxygen
 BuildRequires:	graphviz
 BuildRequires:	pkgconfig(openssl)
-BuildRequires:	python3dist(pytest)
-BuildRequires:	python3dist(pyyaml)
+BuildRequires:	python%{pyver}dist(pytest)
+BuildRequires:	python%{pyver}dist(pyyaml)
 BuildRequires:	unzip
 #BuildRequires:	valgrind
 BuildRequires:	xsltproc
